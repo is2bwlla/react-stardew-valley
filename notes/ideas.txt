@@ -1,0 +1,16 @@
+1. DESIGN:
+    a) Homepage with a stardew valley banner and a search box, a header with the options "Home", "All", "About", and the stardew valley logo + API;
+    b) Header has to have three options for navigation and the stardew valley logo + API. In responsive form, it has to have a menu hamburguer;
+    c) The "All" page has to show all characters from stardew valley;
+    d) The 'About' page has to show information about the creators of the project;
+    e) The footer has to have contact information, figma and social media links.
+
+2. REACT ORGANIZATION:
+    a) components: Header, Footer, CharacterList(list all characters), SearchBox, banner;
+    b) pages: Home, All, About;
+    c) assets: banner, stardew valley logo, characters;
+    d) styles: only input.css and output.css from tailwind CSS.
+
+3. INTEGRATION BACKEND + FRONTEND:
+    a) axios (js);
+    b) data.json.
